@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import BasicTable from './components/BasicTable';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor eaque tempore quaerat eum beatae officiis aut tempora? Consequatur iure sunt sequi facilis magnam rem quae doloribus quasi pariatur, numquam possimus consequuntur natus illum, ducimus reiciendis enim ullam saepe itaque non.</h1>
+      <div className="table-container">
+        <BasicTable />
+      </div>
     </div>
   );
 }
