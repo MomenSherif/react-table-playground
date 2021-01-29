@@ -37,7 +37,7 @@ table{
   font-family: 'Roboto', sans-serif;
 }
 
-th{
+th, tfoot td{
   padding: 20px 15px;
   text-align: left;
   font-weight: 500;
