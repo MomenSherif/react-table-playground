@@ -37,6 +37,11 @@ table{
   font-family: 'Roboto', sans-serif;
 }
 
+thead tr:first-of-type th,
+tfoot tr:last-of-type td{
+  text-align: center
+}
+
 th, tfoot td{
   padding: 20px 15px;
   text-align: left;
