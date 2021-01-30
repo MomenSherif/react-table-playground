@@ -27,9 +27,7 @@ h1{
   margin-bottom: 15px;
 }
 
-.table-container {
-  overflow-x: scroll;
-}
+
 table{
   width: 100%;
   background: -webkit-linear-gradient(left, #25c481, #25b7c4);
