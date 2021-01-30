@@ -1,16 +1,21 @@
 import { useMemo } from 'react';
 import { useTable, useGlobalFilter, useFilters } from "react-table";
 import GlobalFilter from "./GlobalFilter";
+import ColumnFilter from './ColumnFilter';
 import MOCK_DATA from "./MOCK_DATA.json";
 import { COLUMNS } from "./columns";
 
 export default function FilteringTable() {
   const data = useMemo(() => MOCK_DATA, []);
   const columns = useMemo(() => COLUMNS, []);
+  const defaultColumn = useMemo(() => ({
+    Filter: ColumnFilter
+  }), []);
 
   const { getTableProps, getTableBodyProps, headerGroups, footerGroups, rows, prepareRow, state, setGlobalFilter } = useTable({
     columns,
     data,
+    defaultColumn,
   }, useFilters, useGlobalFilter);
   const { globalFilter } = state;
 

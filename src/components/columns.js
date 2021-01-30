@@ -6,19 +6,16 @@ export const COLUMNS = [
     Header: 'Id',
     Footer: 'Id',
     accessor: 'id',
-    Filter: ColumnFilter,
   },
   {
     Header: 'First Name',
     Footer: 'First Name',
     accessor: 'first_name',
-    Filter: ColumnFilter,
   },
   {
     Header: 'Last Name',
     Footer: 'Last Name',
     accessor: 'last_name',
-    Filter: ColumnFilter,
   },
   {
     Header: 'Date of Birth',
@@ -31,13 +28,11 @@ export const COLUMNS = [
     Header: 'Country',
     Footer: 'Country',
     accessor: 'country',
-    Filter: ColumnFilter,
   },
   {
     Header: 'Phone Number',
     Footer: 'Phone Number',
     accessor: 'phone',
-    Filter: ColumnFilter,
   },
 ];
 
