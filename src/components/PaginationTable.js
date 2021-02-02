@@ -60,7 +60,7 @@ export default function PaginationTable() {
             min={1}
             max={pageCount}
             step={1}
-            defaultValue={pageIndex + 1}
+            value={pageIndex + 1}
             onChange={e => {
               const pageNumber = e.target.value ? +(e.target.value) - 1 : 0;
               gotoPage(pageNumber)
