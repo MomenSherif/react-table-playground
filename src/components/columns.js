@@ -6,6 +6,7 @@ export const COLUMNS = [
     Header: 'Id',
     Footer: 'Id',
     accessor: 'id',
+    sticky: 'left',
   },
   {
     Header: 'First Name',
@@ -33,6 +34,16 @@ export const COLUMNS = [
     Header: 'Phone Number',
     Footer: 'Phone Number',
     accessor: 'phone',
+  },
+  {
+    Header: 'Email',
+    Footer: 'Email',
+    accessor: 'email',
+  },
+  {
+    Header: 'Age',
+    Footer: 'Age',
+    accessor: 'age',
   },
 ];
 
